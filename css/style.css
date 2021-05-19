@@ -1,0 +1,171 @@
+
+.template {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    opacity: 0.3;
+}
+/* *{outline:solid 1px red;} */
+
+h1,h2,h3,p,body{
+    padding:0;
+    margin:0;
+    font-family:'Gill Sans';
+}
+h2{
+    font-size:60px;
+}
+body{
+    min-width: 1000px;
+}
+.header_container{
+    margin:0 auto;
+    width: 920px;
+}
+.header_container img{
+    vertical-align: top;
+}
+header {
+    background-color: #eeeaeada;
+    padding-top: 30px;
+    padding-bottom: 30px;
+   
+}
+h1{
+    display: inline-block;
+    margin-right: 40px;
+    vertical-align: middle;
+    }
+nav{
+    display:inline-block;
+    font-size: 0;
+    vertical-align: middle;
+}
+nav li{
+    display: inline-block;
+    line-height: 4;
+    list-style: none;  
+    font-size:18px;
+}
+nav li+li{
+    margin-left: 110px;
+}
+nav a{
+    display: inline-block;
+    text-decoration:none;
+}
+main{
+    padding-bottom: 150px;
+}
+.wrap_figure{
+    margin: 0 auto;
+    padding-top: 70px;
+    width: 850px;
+    font-size:0; 
+}
+.wrap_content{
+    margin:0 auto;
+    margin-top: 60px;
+    width:850px;
+}
+section:first-child{
+    background-color: #fdfdfb;
+}
+.article_text{
+    display:inline-block;
+    margin-bottom: 30px;
+    width: 425px;}
+
+.article_text p{
+    font-size:20px;
+}
+
+.article_img{
+    display:inline-block;
+    vertical-align: top;
+    width:50% ;
+}  
+.article_img img{
+    width: 100%;
+    vertical-align: top;
+}
+
+.article_button{
+    margin: 15px auto 0px auto;
+    width: 235px;
+}
+button + span{
+    font-size: 15px;
+}
+button{
+    border: 0px;
+    padding: 0;
+    width: 235px;
+    height: 60px;
+    background:linear-gradient(180deg, #FFA500 50%,#FF8C00 50%);
+    color:#fff;
+    font-size:25px;
+    border-radius: 6px;   
+}
+button:hover{
+    background:#D5D5D5;
+}
+
+.article_content{
+    column-count: 2;
+    column-gap: 60px;
+
+}
+.article_content p{
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+.article_content h3{
+    column-span: all;
+    font-size:33px;
+    margin-bottom: 20px;
+    
+}
+.copyright {
+   float: left;
+}
+.copyright span{
+    line-height: 32px;
+    margin:0 auto;
+
+}
+footer{
+    padding: 20px 0px;
+    background-color:#D5D5D5;
+    
+}
+.clear_fix{
+    clear: both;
+}
+
+.footer_contact{
+    float: right;   
+}
+.footer_contact a{
+    display: inline-block;
+}
+.footer_contact a+a{
+    margin-left: 30px;
+}
+.footer_text{
+    line-height: 32px;
+}
+.footer_contact a{
+    color:black
+}
+a:hover{
+    color:orange;
+    text-decoration:none ;   
+}
+.footer_container{
+    margin: 0 auto;
+    width: 920px;   
+}
